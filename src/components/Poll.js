@@ -51,10 +51,10 @@ function Poll() {
             <h1>WebDev Poll</h1>
             <h3>Vote for your favorite WebDev Tool</h3>
             <h3>{winner.name} is winning</h3>
-            <PollRow count={jsCount} tool="JavaScript" addVote={() => { setJsCount(jsCount + 1) }}/>
-            <PollRow count={pythonCount} tool="Python" addVote={() => { setPythonCount(pythonCount+1)}}/>
-            <PollRow count={rubyCount} tool="Ruby" addVote={() => { setRubyCount(rubyCount + 1) }}/>
-            <PollRow count={javaCount} tool="Java" addVote={()=>{ setJavaCount(javaCount+1) }}/>
+            <PollRow count={jsCount} tool="JavaScript" addVote={() => { setJsCount(jsCount +1) }}/>
+            <PollRow count={pythonCount} tool="Python" addVote={() => { setPythonCount(pythonCount +1)}}/>
+            <PollRow count={rubyCount} tool="Ruby" addVote={() => { setRubyCount(rubyCount +1) }}/>
+            <PollRow count={javaCount} tool="Java" addVote={()=>{ setJavaCount(javaCount +1) }}/>
         </div>
     )
 }
